@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+   /*border: 1px black solid;*/
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+
+h1{
+    text-align: center;
+    padding: 2%;
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color: #ffc045;
+
+}
+h4{
+    font-size: larger;
+}
+h3{
+    margin-left: 2%;
+}
+h3, h4, p{
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+h3{
+    font-size: x-large;
+    width: 40%;
+    border-bottom: 3px solid black;
+    border-color: #ffc045;
+}
+
+p{
+    font-size: larger;
+}

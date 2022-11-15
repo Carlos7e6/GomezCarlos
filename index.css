@@ -1,0 +1,171 @@
+/*Esta es la parte del header y nav*/
+*{
+    font-family: 'Maven Pro', 'Kanit';
+  /* border: 1px black solid;*/
+    padding: 0;
+    margin:0;
+}
+/*Primera section de articulos de videojuegos*/
+
+
+.videogames div, .noticias div{
+
+    
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.articVid img, .articNot img{
+
+    height: 200px;
+}
+.articVid p{
+
+    height: 100px;
+    overflow: hidden;
+    font-size: small;
+    color:gray;
+}
+
+.articVid h4{
+    color:#ffc045;
+    font-weight: bold;
+}
+
+.articVid p, h4{
+
+    margin:5px;
+}
+.articVid div, .articNot div{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.articVid a, .articNot a{
+    padding:1%;
+    background-color: #ffc045;
+}
+
+.articVid a{
+
+    align-self: flex-end;
+    width: 20%;
+}
+
+.articVid a:hover,.articNot a:hover {
+    background-color: gray;
+}
+
+.articVid, .articNot{
+
+    
+    border:2px;
+    border-style: solid;
+    border-color:#ffc045;
+    margin-top: 2%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*A partir de aqui van las noticias y trucos*/
+
+.doubleSect{
+
+    margin-top: 2%;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+
+
+}
+
+.trucos
+{
+    background-color: lightcyan;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 25%;
+}
+
+.trucos div
+{
+    margin-top: 10%;
+}
+
+ /*noticias*/
+
+.noticias{
+    width: 70%;
+    height: 100%;
+}
+
+.articNot
+{
+    height: 370px;
+    width: 40%;
+}
+
+.articNot a
+{
+    text-align: end;
+    align-self: end;
+    position: relative;
+    top:-60px;
+    background-color:#ffc045; 
+    width: 80%;
+    margin-bottom: -50px; 
+}
+
+.articNot p{
+
+    height: 20%;
+    overflow: hidden;
+}
+span, .name{
+    font-weight: bold;
+}
+
+.trucos p, .trucos h4 {
+    margin-top: 2%;
+}
+
+
+/* Aqui va la parte de ranking-----------------------------------------
+*/
+.ranking
+{
+
+    background-color: #8A8070;
+    padding-bottom: 2%;
+
+}
+
+.ranking h2{
+
+    text-align: center;
+    color: #ffc045;
+
+}
+.rankArt
+{
+    display: flex;
+    justify-content:space-around;
+}
+
+.rankArt div img{
+
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+.rankArt div p{
+
+    display: flex;
+    justify-content: center;
+}
+
+/*footer--------*/
+

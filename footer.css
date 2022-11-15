@@ -1,0 +1,31 @@
+
+footer{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 5%;
+    display:flex;
+    
+    justify-content: space-around;
+    background-color: #0a91ab;
+}
+
+footer div a img
+{
+    width: 50px;
+    height: 50;
+}
+footer address{
+    color:#ffc045;
+    align-self: center;
+}
+footer p{
+    align-self:center;
+    color:#ffc045;
+    font-style: italic;
+    font-size: medium;
+}
+footer div{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
