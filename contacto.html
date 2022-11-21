@@ -40,14 +40,14 @@
             <fieldset>
                 <legend>FORMULARIO</legend>
                 <div>
-                    <div class= "user_name parts">
+                    <div class="user_name parts">
                         <div>
                             <label for="nombre">Nombre</label>
-                            <input type="text" id="nombre" name="titulo">
+                            <input type="text" id="nombre" name="titulo" required>
                         </div>
                         <div>
                             <label for="primer_apellido">Primer apellido</label>
-                            <input type="text" id="primer_apellidp" name="primer_apellido">
+                            <input type="text" id="primer_apellidp" name="primer_apellido" required>
                         </div>
                         <div>
                             <label for="segundo_apellido">Segundo apellido</label>
@@ -56,20 +56,20 @@
                     </div>
                     <div class="parts">
                         <label for="pwd">Contraseña</label>
-                        <input type="password" id="pwd" name="pwd">
+                        <input type="password" id="pwd" name="pwd" class="someSpace" required>
                     </div>
                     <div class="parts">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" class="someSpace" required>
                     </div>
                     <div class="parts">
                         <label for="date">Fecha de nacimiento</label>
-                        <input type="date" id="date" name="date">
+                        <input type="date" id="date" name="date" class="someSpace" required>
                     </div>
 
                     <div class="parts">
                         <label for="sexo">Sexo</label>
-                        <select id="sexo">
+                        <select id="sexo" class="someSpace">
                             <option label="" value=""></option>
                             <option label="Mujer" value="mujer"></option>
                             <option label="Hombre" value="hombre"></option>
@@ -80,7 +80,10 @@
                         <input type="checkbox" id="carnet" name="carnet">
                     </div>
                     <textarea class="parts" rows="8" cols="70" name="sinopsis">Escribe una breve descripcion</textarea>
-                    <input type="submit" value="Submit">
+                    <div class="submit">
+                        <input type="submit" value="Enviar">
+                    </div>
+
                 </div>
 
             </fieldset>
