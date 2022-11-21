@@ -7,6 +7,13 @@
 }
 /*Primera section de articulos de videojuegos*/
 
+/*body{
+   
+    background-image: url(src/fondo-hollow.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}*/
 
 .videogames div, .noticias div{
 
@@ -17,6 +24,7 @@
 }
 .articVid img, .articNot img{
 
+    margin-bottom: -0.4em;
     height: 200px;
 }
 .articVid p{
@@ -43,6 +51,8 @@
 }
 
 .articVid a, .articNot a{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     padding:1%;
     background-color: #ffc045;
 }
@@ -54,7 +64,7 @@
 }
 
 .articVid a:hover,.articNot a:hover {
-    background-color: gray;
+    background-color: #ffc999;
 }
 
 .articVid, .articNot{
