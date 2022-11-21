@@ -5,12 +5,26 @@
 }
 
 h3{
+
+    padding-left: 2%;
     margin: 2%;
+    margin-left: 5.5%;
+    background-color: antiquewhite;
+    border-radius: 15px;;
+    width: 400px;
 }
 h4{
     font-size: x-large;
     text-decoration: underline;
     margin-left: 2%;
+}
+
+body{
+   
+    background-image: url(src/fondo-hollow.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 
@@ -38,9 +52,14 @@ article{
     display: flex;
 
     margin-top: 3%;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 10%;
+    margin-left: 5%;
     flex-direction: row;
+    background-color: rgba(255, 255,255,0.95);
+
+    padding-left:1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .bold{

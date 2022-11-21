@@ -1,16 +1,37 @@
 
-img{
-    width: 100%;
+*{
+   
 }
-
+figure img{
+    width: 100%;
+    border-bottom: 8px solid black;
+}
+main{
+   
+    background-image: url(src/918253.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
 /*----------------------------------------------------------*/
-
+ 
 .description p{
 
     margin-top: 4%;
     margin-bottom: 4%;
     margin-left: 3.5%;
     margin-right: 2%;
+}
+
+article{
+
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255,255,0.95);
+    padding: 2%;
 }
 /*-----------------------------------------------------------*/
 
@@ -129,7 +150,12 @@ img{
 
 .JugArt figure{
     margin-top: 1%;
-    width: 20%;
+    width: 40%;
+}
+
+.JugArt figure figcaption{
+   
+    font-size: small;
 }
 
 /*-------------------------------------------------------------*/
@@ -149,6 +175,8 @@ img{
     display: flex;
    justify-content: center;
 }
+
+
 
 
 

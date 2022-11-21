@@ -26,19 +26,21 @@ h4{
     font-size: larger;
 }
 
-h3, h4, p{
+h4, p{
 
     margin-top: 1%;
     margin-bottom: 1%;
 }
 h3{
+
+    margin-top: 2%;
     margin-left: 2%;
-    font-size: x-large;
-    width: 20%;
+    font-size: xx-large;
+    width: 40%;
     border-bottom: 3px solid black;
     border-color: #ffc045;
 }
 
 p{
-    font-size: larger;
+    font-size: medium;
 }

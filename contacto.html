@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M04PLAY</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="fuentes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="src/M4PLay.jpg" alt="M4Play">
+            <p>LEARNING THROUGH PLAY</p>
+
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">M04PLAY</a>
+        <a href="listado.html">VIDEOJUEGOS</a>
+        <a href="#">NOTICIAS</a>
+        <a href="#">RANKING</a>
+        <a href="#">ENQUESTA</a>
+        <a href="contacto.html">CONTACTO</a>
+    </nav>
+
+    <main>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>DARSE DE ALTA</legend>
+                <div class="user_name">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="titulo">
+                    </div>
+                    <div>
+                        <label for="primer_apellido">Primer apellido</label>
+                        <input type="text" id="primer_apellidp" name="primer_apellido">
+                    </div>
+                    <div>
+                        <label for="segundo_apellido">Segundo apellido</label>
+                        <input type="text" id="segundo_apellido" name="segundo_apellido">
+                    </div>
+                </div>
+                <div>
+                    <label for="pwd">Contraseña</label>
+                    <input type="password" id="pwd" name="pwd">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <label for="date">Fecha de nacimiento</label>
+                <input type="date" id="date" name="date">
+                <div><label for="sexo">Sexo</label>
+                    <select id="sexo">
+                        <option label="" value=""></option>
+                        <option label="Mujer" value="mujer"></option>
+                        <option label="Hombre" value="hombre"></option>
+                    </select>
+                </div>
+                <label for="carnet">Carnet Jove</label>
+                <input type="checkbox" id="carnet" name="carnet">
+                <textarea rows="8" cols="70" name="sinopsis">Escribe una breve descripcion</textarea>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <a href=""><img class=" footer-logos-rs" src="src/instagram.png" alt="Instagram" /></a>
+            <a href=""><img class="footer-logos-rs" src="src/facebook.png" alt="Facebook" /></a>
+            <a href=""><img class="footer-logos-rs" src="src/twitter.png" alt="Twitter" /></a>
+            <a href=""><img class="footer-logos-rs" src="src/youtube.png" alt="Youtube" /></a>
+        </div>
+        <address>Carrer d'Aiguablava 121<br>
+            08033, Barcelona
+        </address>
+        <p>Copyright c 2021-2022</p>
+    </footer>
+
+
+</body>
+
+</html>
