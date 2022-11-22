@@ -30,13 +30,15 @@ legend{
 }
 fieldset{
 
+    border: 2px solid #ffc045;
     border-radius: 4em;
-    background-color: #ffc045;
+    background-color:rgba(255, 255, 255, 0.93);
     margin-top: 5%;
     margin-left: 25%;   
     width: 50%;
     
 }
+
 body{
    
     background-image: url(src/918253.jpg);
@@ -47,6 +49,7 @@ body{
 
 label{
 
+    
     font-size: large;
     font-weight: bold;
     
@@ -71,11 +74,11 @@ label{
 }
 
 .user_name div ~ div{
-    margin-left: 3%;
+    margin-left: 10%;
 }
 .parts{
     margin: 3%;
-    margin-left: 3%;
+    margin-left: 10%;
 }
 
 input{
@@ -109,6 +112,7 @@ input{
 
 .submit input:hover{
 
-    background-color: #ffc999 ;
+    border-color: #ffc045;
+    background-color: #ffc999;
    
 }

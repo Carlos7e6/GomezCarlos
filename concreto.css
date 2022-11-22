@@ -1,12 +1,8 @@
-
-*{
-   
-}
 figure img{
     width: 100%;
     border-bottom: 8px solid black;
 }
-main{
+body{
    
     background-image: url(src/918253.jpg);
     background-repeat: no-repeat;
@@ -53,10 +49,10 @@ article{
 .divInfGen{
 
     
-    width: 25%;
+    width: 35%;
     margin-top:1%;
     margin-bottom:1%;
-    border:1px black solid;
+    border:3px black solid;
     border-color: #ffc045;
     border-radius: 10px;
 
@@ -70,6 +66,7 @@ article{
 
     width: 70%;
     align-self: center;
+    font-size: large;
 
 }
 
