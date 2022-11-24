@@ -112,6 +112,10 @@
     height: 100%;
 }
 
+.noticias h2, .title{
+    margin-left: 4.5%;
+}
+
 .articNot
 {
     height: 370px;
@@ -168,8 +172,8 @@ span, .name{
 .rankArt div img{
 
     border-radius: 100px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .rankArt div p{
 
